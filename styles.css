@@ -1,0 +1,118 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 10% auto 15%;
+}
+nav {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a {
+    margin: 5px;
+    text-decoration: none;
+    color: #272424;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+#square {
+    margin: 5px;
+    background: #828181;
+    height: 25px;
+    width: 25px;
+}
+#circle {
+    margin: 5px;
+    background: #828181;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    position: relative;
+    top: -40px;
+    margin: 10px;
+}
+#form {
+    position: relative;
+    top: -40px;
+    display: flex;
+    border: 1px solid #d4d1d1;
+    border-radius: 20px;
+}
+#search {
+    margin: 10px;
+    height: 20px;
+    width: 15px;
+    background: grey;
+}
+#search-box {
+    width: 350px;
+    border: none;
+    outline: none;
+}
+#mic {
+    margin: 10px;
+    height: 20px;
+    background: grey;
+    width: 15px;
+}
+button {
+    margin: 0 5px;
+    padding: 10px;
+    position: relative;
+    top: -10px;
+    height: 35px;
+    background: #ececec;
+    border: none;
+    border-radius: 5px;
+    color: #3c3737;
+    outline: none;
+}
+button:hover {
+    outline: auto;
+}
+#offered {
+    font-size: small;
+}
+#languages {
+    color: blue;
+}
+footer {
+    background: #efefef;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer a {
+    text-decoration: none;
+    color: #6f6f6f;
+}
+footer div {
+    margin: 10px 10px 10px 1px;
+}
+#footer-top  a{
+    margin: 0 0 0 10px;
+}
+#footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer-bottom a {
+    margin: 0 5px 0 5px;
+}
